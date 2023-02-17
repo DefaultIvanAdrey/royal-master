@@ -1,0 +1,14 @@
+body {
+    background-color: #2B2D42;
+}
+
+img.item {
+    display: inline-block;
+    border-radius:16px;
+}
+
+div.carousel-item img {
+    border-radius:16px;
+}
+
+

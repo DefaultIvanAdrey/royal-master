@@ -1,0 +1,178 @@
+/*
+.modal-window {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.25);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  transition: all 0.3s;
+  visibility: invisible;
+  opacity: 0;
+  pointer-events: none;
+  &:target {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  & > div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: white;
+  }
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+.modal-window {
+  & > div {
+    border-radius: 1rem;
+  }
+}
+
+.modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+*/
+
+.card p {
+  font-family: "Poppins", sans-serif;
+  color: #EE6C4D;
+}
+
+.card h5 {
+  margin-top: 2rem;
+}
+
+
+.card h6 {
+  font-family: "Poppins", sans-serif;
+  color: #EE6C4D;
+  font-weight: normal;
+  margin-top: 2rem;
+}
+
+.card h6.register {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #EE6C4D;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  font-style: normal;
+}
+
+.card {
+  width: 400px;
+  border: none;
+
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.head .card {
+  align-items: center;
+  width: 100%;
+  border: none;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.head {
+  width: 100%;
+}
+
+.card .btr:hover {
+  color: white;
+  background-color: #EE6C4D;
+}
+
+.card .btl:hover {
+  color: white;
+  background-color: #EE6C4D;
+}
+
+.card .btn-dark {
+  color: #fff;
+  background-color: #2B2D42;
+  border-color: #2B2D42;
+}
+
+.card .btn-dark:hover {
+  color: #fff;
+  background-color: #EE6C4D;
+  border-color: #EE6C4D;
+}
+
+.card .nav-pills {
+  display: table !important;
+  width: 100%;
+}
+
+.card .nav-pills .nav-link {
+  border-radius: 0px;
+  border-bottom: 1px solid #3F84E540;
+}
+
+.card .nav-item {
+  display: table-cell;
+  background: #3F84E52e;
+}
+
+.card .form {
+  padding: 16px;
+  height: auto;
+}
+
+.card .form input {
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+
+.card .form input:focus {
+  box-shadow: none;
+}
+
+.card .form button {
+  margin-top: 20px;
+}
+
+.card img.logo {
+  width: 160px;
+  height: auto;
+}
+
+.card .close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.card .close:hover,
+.card .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

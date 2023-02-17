@@ -1,0 +1,37 @@
+body {
+    background-color: #2B2D42;
+}
+
+td {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+h4.orange {
+    color: #EE6C4D;
+}
+
+label {
+    color: white;
+}
+
+input.form-control:disabled {
+    background-color: #2B2D42;
+    color: white;
+}
+
+input.form-control.checkbox {
+    size: 4rem;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #222222;
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+table.table, th, td, thead {
+    color: #e8eaed;
+}
